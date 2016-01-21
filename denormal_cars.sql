@@ -20,3 +20,8 @@ CREATE DATABASE denormal_cars OWNER denormal_user;
 -- SELECT DISTINCT make_code, model_code, model_title, year
 -- FROM car_models
 -- WHERE make_code = 'LAM';
+
+-- SELECT DISTINCT count(*)
+-- FROM car_models
+-- WHERE year BETWEEN 2010 AND 2015;
+
